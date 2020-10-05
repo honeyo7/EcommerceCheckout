@@ -17,8 +17,8 @@ func TestCheckoutAmt(t *testing.T) {
 	r.RoutesCheckout(myRouter)
 	// Test data
 	// 1. Scanned Items: MacBook Pro -1 , Raspberry Pi B-1: Output NetAmount:5399.99,TotalAmount:5429.99,DiscAmt:30
-	// 2. Scanned Items: Google Home, Quantity:3 : Output NetAmount:5399.99,TotalAmount:5429.99,DiscAmt:30
-	// 3. Scanned Items: Alexa Speaker, Quantity:3 : Output NetAmount:5399.99,TotalAmount:5429.99,DiscAmt:30
+	// 2. Scanned Items: Google Home, Quantity:3 : Output NetAmount:99.98,TotalAmount:149.97,DiscAmt:49.99
+	// 3. Scanned Items: Alexa Speaker, Quantity:3 : Output NetAmount:295.65,TotalAmount:328.5,DiscAmt:32.85
 	// 4. Scanned Items: MacBook Pro -1 , Raspberry Pi B-2: Output NetAmount:5429.99,TotalAmount:5459.99,DiscAmt:30
 	var tests = []struct {
 		input    string
