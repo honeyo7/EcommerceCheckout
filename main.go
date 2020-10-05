@@ -13,6 +13,6 @@ func main() {
 	myRouter := gin.Default()
 	r.RoutesCheckout(myRouter)
 
-	log.Println("Server started on: http://localhost:8085")
-	myRouter.Run(":8085")
+	log.Println("Server started on: http://localhost:8080")
+	myRouter.Run(":8080")
 }
